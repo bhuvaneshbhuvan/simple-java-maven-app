@@ -1,5 +1,5 @@
 package com.mycompany.app;
-
+//Test the auto trigger
 /**
  * Hello world!
  */
