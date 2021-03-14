@@ -20,4 +20,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+
 - task: WhiteSource@21
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
