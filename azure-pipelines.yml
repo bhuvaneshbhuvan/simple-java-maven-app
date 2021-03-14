@@ -29,4 +29,4 @@ steps:
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
     
-- task: WhiteSource Bolt@20
+- task: WhiteSource Bolt@21
