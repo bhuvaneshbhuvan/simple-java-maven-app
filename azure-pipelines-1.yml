@@ -22,4 +22,4 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-- task: WhiteSource@21
+- task: WhiteSource Bolt@21
